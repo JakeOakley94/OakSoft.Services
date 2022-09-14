@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LifeManager.Repositories\LifeManager.Repositories\LifeManager.Repositories.csproj" />
+    <ProjectReference Include="..\..\OakSoft.Client.Models\OakSoft.Client.Models\OakSoft.Client.Models.csproj" />
+    <ProjectReference Include="..\..\OakSoft.Model\OakSoft.Model\OakSoft.Model.csproj" />
+  </ItemGroup>
+
+</Project>
